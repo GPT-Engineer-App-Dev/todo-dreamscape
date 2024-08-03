@@ -1,4 +1,4 @@
-import { Home, Party } from "lucide-react";
+import { Home, PartyPopper } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import Confetti from "./pages/Confetti.jsx";
 
@@ -15,7 +15,7 @@ export const navItems = [
   {
     title: "Confetti",
     to: "/confetti",
-    icon: <Party className="h-4 w-4" />,
+    icon: <PartyPopper className="h-4 w-4" />,
     page: <Confetti />,
   },
 ];
